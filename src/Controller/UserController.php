@@ -16,6 +16,9 @@
   use Symfony\Component\Form\Extension\Core\Type\TextareaType;
   use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
+  use App\Form\LoginFormType;
+  use App\Entity\User;
+
   class UserController extends Controller{
     /**
       * @Route("/", name="text_list")
@@ -27,6 +30,19 @@
       // return $this->render('text/index.html.twig', array('texts' => $texts));
 
       return $this->render('text/index.html.twig');
+    }
+
+    /**
+      * @Route("/sign-up", name="sign_in")
+      *
+      */
+    public function signIn(){
+      $user = new User();
+      $form = $this->createForm(LoginFormType::class, $user);
+
+      return $this->render('text/sign-up.html.twig',[
+        'form' => $form->createView()
+      ]);
     }
 
     /**

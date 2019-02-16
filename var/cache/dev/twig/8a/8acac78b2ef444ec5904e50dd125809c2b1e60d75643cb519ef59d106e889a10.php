@@ -40,7 +40,7 @@ class __TwigTemplate_7f0591971d9d3fa07399f1fac3310ee4c54db6b3d9916467014ef7a7691
         <a href=\"/\" class=\"nav-link\">Home</a>
       </li>
       <li class=\"nav-item\">
-        <a href=\"/text/new\" class=\"nav-link\">New Text</a>
+        <a href=\"/sign-up\" class=\"nav-link\">Sign Up!</a>
       </li>
     </ul>
   </div>
@@ -81,7 +81,7 @@ class __TwigTemplate_7f0591971d9d3fa07399f1fac3310ee4c54db6b3d9916467014ef7a7691
         <a href=\"/\" class=\"nav-link\">Home</a>
       </li>
       <li class=\"nav-item\">
-        <a href=\"/text/new\" class=\"nav-link\">New Text</a>
+        <a href=\"/sign-up\" class=\"nav-link\">Sign Up!</a>
       </li>
     </ul>
   </div>
